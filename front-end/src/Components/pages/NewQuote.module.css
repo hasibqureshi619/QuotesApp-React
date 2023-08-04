@@ -1,0 +1,47 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+.form{
+    width: 360px;
+    margin: 30px auto;
+    background-color: linen;
+    box-shadow: 2px 3px 4px rgb(0, 0, 0,0.26);
+    border-radius: 5px;
+}
+.author{
+    padding: 15px;
+}
+.quote{
+    padding: 15px;
+}
+.label{
+    font-weight: 700;
+}
+#author{
+    border-radius: 10px;
+}
+button{
+    margin: 15px;
+    padding: 5px;
+    font-weight: bold;
+    margin-top: -10px;
+}
+button:hover{
+    color:white;
+    background-color: black;
+    cursor: pointer;
+}
+.input{
+    padding: 5px;
+    font-size: medium;
+    font-family: sans-serif;
+    font-weight: 500;
+    margin-bottom: -10px;
+}
+.textarea{
+    padding: 5px;
+    font-size: large;
+    font-family: cursive;
+    font-weight: 400;
+}

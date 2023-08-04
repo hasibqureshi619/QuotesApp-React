@@ -1,0 +1,53 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.quote{
+    width: 50%;
+    border: 2px solid black;
+    margin: 20px auto;
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    justify-content: space-around;
+    border-radius: 6px;
+}
+h1{
+    text-align: center;
+}
+.span{
+    gap: 20px;
+
+}
+.btn{
+    padding: 10px;
+    font-family: sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+    border-radius: 5px;
+}
+.btn:hover{
+    cursor: pointer;
+    background-color: black;
+    color:white;
+}
+.fquote{
+    
+    /* /* border: 1px solid black; */
+    border-radius: 5px; 
+    width: fit-content;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+    font-family: cursive;
+    font-weight: bold;
+    font-size: large;
+}
+.fquote:hover{
+    background-color: black;
+    color:white;
+    cursor: pointer;
+}
+h3::before{
+    content: '~';
+}
